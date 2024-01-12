@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<script type="module" src="./main.js"></script>
+	</head>
+	<body>
+		<h1>Promises</h1>
+
+		<article>
+			<h2>Chucky</h2>
+
+			<p class="joke"></p>
+			<button id="fetch-chuck">Fetch joke</button>
+		</article>
+
+		<article>
+			<h2>Pokemons</h2>
+			<input
+				type="number"
+				value="1"
+				id="poke-amount"
+				placeholder="add more pokemon to fetch here" />
+			<button id="fetch-poke">Get first X pokemons</button>
+
+			<div class="pokemons"></div>
+		</article>
+
+		<template id="template">
+			<article>
+				<h3 class="name"></h3>
+				<img class="poke-picture" src="" alt="" />
+			</article>
+		</template>
+	</body>
+</html>
